@@ -46,7 +46,7 @@ You can simple clone this repo from GitHub
 
 
 ```git
-  git clone https://github.com/asamaranayake/
+  git clone https://github.com/asamaranayake/qa-api-automation.git
 ```
 
 To Execute the all Tests 
