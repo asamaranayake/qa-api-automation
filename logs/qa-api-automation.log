@@ -1,0 +1,910 @@
+2023-05-09 15:45:04.641 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-09 15:45:04.724 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-09 15:45:04.910 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2023-05-09 15:45:04.918 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-09 15:45:46.548 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-09 15:45:46.604 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-09 15:45:46.701 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2023-05-09 15:45:46.706 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-09 15:48:43.121 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-09 15:48:43.202 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-09 15:48:43.325 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2023-05-09 15:48:43.331 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-09 15:50:33.091 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-Surefire test
+2023-05-09 15:50:33.179 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2023-05-09 15:50:33.187 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-Surefire test
+2023-05-09 16:18:09.618 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-09 16:18:09.783 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-09 16:18:14.112 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-09 16:18:19.693 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-09 16:18:20.118 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-09 16:21:59.122 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-09 16:21:59.244 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-09 16:22:02.286 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-09 16:22:07.439 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-09 16:22:07.875 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 02:21:46.173 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 02:21:46.255 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 02:21:48.668 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 02:23:59.057 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 02:23:59.141 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 02:24:01.143 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 02:24:04.995 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 02:24:05.015 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc40188024aee0600de
+2023-05-10 02:24:05.256 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 02:24:05.650 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 02:51:02.599 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 02:51:02.679 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 02:51:04.552 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 02:51:07.711 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 02:51:07.734 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc401880263b15500e1
+2023-05-10 02:51:08.051 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 02:58:54.223 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 02:58:54.359 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 02:58:57.876 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 02:59:02.966 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 02:59:03.010 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc40188026af1a700e2
+2023-05-10 02:59:03.359 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 02:59:03.771 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 03:09:03.044 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 03:09:03.239 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 03:09:07.069 [TestNG-PoolService-1] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2027","Price":"2009.89","CPU model":"M13CHIP"},"name":"Apple Iphone 19"}
+2023-05-10 03:09:07.069 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 03:09:12.543 [TestNG-PoolService-1] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 03:09:12.587 [TestNG-PoolService-1] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc4018802743e9600e5
+2023-05-10 03:09:12.897 [TestNG-PoolService-1] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 03:09:15.965 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 03:10:45.795 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 03:10:45.871 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 03:10:47.767 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 03:10:47.767 [TestNG-PoolService-1] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2027","Price":"2009.89","CPU model":"M13CHIP"},"name":"Apple Iphone 19"}
+2023-05-10 03:10:51.117 [TestNG-PoolService-1] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 03:10:51.117 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 03:10:51.143 [TestNG-PoolService-1] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc401880275bff500e7
+2023-05-10 03:10:51.143 [TestNG-PoolService-0] INFO  com.amused.testSteps.testStepDef - Created Object ID >> ff80818187ff3bc401880275bff300e6
+2023-05-10 03:10:51.521 [TestNG-PoolService-0] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 03:10:51.522 [TestNG-PoolService-1] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 03:10:51.957 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:07:57.943 [main] INFO  com.amused.testSteps.apiTestSteps - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:08:00.250 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:08:00.270 [main] INFO  com.amused.testSteps.apiTestSteps - Created Object ID >> ff80818187ff3bc4018802aa137500f5
+2023-05-10 04:08:00.683 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:09:14.391 [main] INFO  com.amused.testSteps.apiTestSteps - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:09:16.221 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:09:16.234 [main] INFO  com.amused.testSteps.apiTestSteps - Created Object ID >> ff80818187ff3bc4018802ab3c7300f6
+2023-05-10 04:09:16.564 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:11:43.772 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-10 04:11:45.474 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-10 04:14:05.095 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:14:05.171 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:14:06.951 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:14:10.108 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:14:10.474 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:17:05.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:17:05.236 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:17:06.915 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:17:09.903 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:17:10.291 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:21:07.584 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:21:18.260 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:22:39.154 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:22:49.305 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:25:14.512 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-10 04:25:16.821 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:25:20.868 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:25:21.351 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-10 04:25:52.267 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:25:52.380 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:25:55.068 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:25:59.084 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:25:59.114 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802ba89880100
+2023-05-10 04:25:59.115 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T22:55:59.369+00:00
+2023-05-10 04:25:59.436 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:25:59.459 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:25:59.756 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:25:59.758 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T22:56:00.221+00:00
+2023-05-10 04:26:00.132 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:27:53.740 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:27:55.479 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:27:55.492 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802bc50a80101
+2023-05-10 04:27:55.492 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T22:57:55.881+00:00
+2023-05-10 04:27:55.797 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:27:55.805 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:27:56.064 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:27:56.067 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T22:57:56.518+00:00
+2023-05-10 04:38:36.051 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:38:38.449 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:38:38.466 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802c620260102
+2023-05-10 04:38:38.467 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:08:38.835+00:00
+2023-05-10 04:38:38.804 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:38:38.810 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:38:39.071 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:38:39.073 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:08:39.563+00:00
+2023-05-10 04:38:57.142 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:38:57.240 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:38:59.643 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:39:03.379 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:03.409 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802c681530103
+2023-05-10 04:39:03.411 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:09:03.700+00:00
+2023-05-10 04:39:03.719 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:39:03.742 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:39:04.032 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:04.033 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:09:04.514+00:00
+2023-05-10 04:39:04.041 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{}}
+2023-05-10 04:39:04.308 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:04.310 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:09:04.804+00:00
+2023-05-10 04:39:04.602 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:39:54.757 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:39:57.172 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:57.187 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802c753cf0104
+2023-05-10 04:39:57.187 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:09:57.585+00:00
+2023-05-10 04:39:57.489 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:39:57.501 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:39:57.786 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:57.788 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:09:58.271+00:00
+2023-05-10 04:39:57.795 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{},"name":"Apple Iphone 19"}
+2023-05-10 04:39:58.095 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:39:58.096 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:09:58.594+00:00
+2023-05-10 04:41:23.662 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:41:25.786 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:41:25.805 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802c8ae040105
+2023-05-10 04:41:25.806 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:11:26.215+00:00
+2023-05-10 04:41:26.127 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:41:26.144 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:41:26.422 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:41:26.423 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:11:26.921+00:00
+2023-05-10 04:41:26.430 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{},"name":"Apple Iphone 19"}
+2023-05-10 04:41:26.706 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:41:26.707 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:11:27.192+00:00
+2023-05-10 04:45:01.113 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:45:01.186 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:45:03.220 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:45:07.278 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:45:07.304 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802cc0ea20106
+2023-05-10 04:45:07.305 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:15:07.563+00:00
+2023-05-10 04:45:07.663 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:45:07.715 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:45:08.023 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:45:08.028 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:15:08.514+00:00
+2023-05-10 04:45:08.046 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 04:45:08.366 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:45:08.367 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:15:08.864+00:00
+2023-05-10 04:45:08.617 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 04:46:38.738 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 04:46:38.804 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 04:46:40.571 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 04:46:44.446 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:46:44.475 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc4018802cd8a4a0107
+2023-05-10 04:46:44.476 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-09T23:16:44.756+00:00
+2023-05-10 04:46:44.865 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 04:46:44.883 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 04:46:45.200 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:46:45.204 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:16:45.695+00:00
+2023-05-10 04:46:45.219 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 04:46:45.741 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 04:46:45.742 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-09T23:16:46.028+00:00
+2023-05-10 04:46:46.032 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 11:27:54.471 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 11:27:57.523 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:27:57.544 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc40188043ce174011d
+2023-05-10 11:27:57.545 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T05:57:58.774+00:00
+2023-05-10 11:27:57.832 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 11:27:57.853 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 11:27:58.290 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:27:58.292 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T05:57:59.508+00:00
+2023-05-10 11:27:58.307 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 11:27:58.605 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:27:58.607 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T05:57:59.952+00:00
+2023-05-10 11:43:41.647 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 11:43:41.768 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 11:43:44.542 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 11:43:49.638 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:43:49.670 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc40188044b685b011e
+2023-05-10 11:43:49.671 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T06:13:50.812+00:00
+2023-05-10 11:43:50.243 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 11:43:50.313 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 11:43:50.638 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:43:50.642 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T06:13:51.981+00:00
+2023-05-10 11:43:50.711 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 11:43:51.094 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:43:51.096 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T06:13:52.411+00:00
+2023-05-10 11:43:51.316 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 11:46:09.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Personal.work\qa-api-automation\testng.xml
+
+2023-05-10 11:46:09.327 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-10 11:46:11.807 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 11:46:15.801 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:46:15.834 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc40188044da36a011f
+2023-05-10 11:46:15.835 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T06:16:17.002+00:00
+2023-05-10 11:46:16.421 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 11:46:16.471 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 11:46:16.783 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:46:16.785 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T06:16:18.132+00:00
+2023-05-10 11:46:16.818 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 11:46:17.169 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 11:46:17.170 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T06:16:18.497+00:00
+2023-05-10 11:46:17.367 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-10 12:34:21.413 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:35:33.379 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 12:35:33.529 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 12:35:36.363 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 12:35:41.349 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:35:41.389 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc40188047ae348012b
+2023-05-10 12:35:41.390 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T07:05:42.473+00:00
+2023-05-10 12:35:42.131 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:35:42.245 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 12:35:42.701 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:35:42.703 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T07:05:43.984+00:00
+2023-05-10 12:35:42.746 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 12:35:43.014 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:35:43.015 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T07:05:44.383+00:00
+2023-05-10 12:35:43.420 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 12:37:11.369 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 12:37:14.036 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :404
+2023-05-10 12:37:26.839 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 12:37:29.443 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:37:29.462 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818187ff3bc40188047c8a26012c
+2023-05-10 12:37:29.463 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T07:07:30.726+00:00
+2023-05-10 12:37:29.847 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:37:29.864 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 12:37:30.134 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:37:30.135 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T07:07:31.506+00:00
+2023-05-10 12:37:30.147 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 12:37:30.425 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 12:37:30.426 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T07:07:31.800+00:00
+2023-05-10 12:44:44.072 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-10 12:44:44.356 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLURE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 12:44:44.695 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :404
+2023-05-10 12:44:44.718 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 12:44:44.985 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :404
+2023-05-10 12:45:00.757 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:45:24.538 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:45:59.622 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 12:54:47.133 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:01:08.570 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:01:37.168 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:02:03.295 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:03:39.080 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:06:48.504 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:08:07.017 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:15:55.716 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:16:35.479 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:18:58.110 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 13:18:58.233 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 13:19:05.316 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:19:07.801 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 13:19:53.345 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:20:38.997 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:21:02.421 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 13:21:02.552 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 13:21:10.978 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:21:13.494 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 13:22:00.627 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:22:46.514 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:23:35.583 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:41:03.170 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:41:21.155 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 13:41:21.266 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 13:41:27.887 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 13:41:28.459 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 14:08:52.200 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:11:47.904 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:12:19.708 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:40:01.392 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:41:20.937 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:47:21.631 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 14:47:21.787 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 14:47:29.750 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 14:47:32.333 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 15:03:05.568 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 15:03:55.543 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 15:24:57.623 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 15:26:22.600 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 15:26:22.668 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 15:26:28.980 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 15:26:31.297 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 15:27:20.007 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 15:27:20.110 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 15:27:25.962 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 15:27:27.950 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 16:37:52.373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 16:37:52.487 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 16:37:59.708 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 16:38:02.399 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-10 16:38:02.845 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 16:38:03.835 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 19:59:54.050 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 19:59:54.125 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 19:59:59.558 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 20:00:01.440 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-10 20:00:02.044 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 20:00:02.802 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 20:12:19.189 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 20:12:19.321 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 20:12:24.188 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 20:12:25.908 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-10 20:12:26.264 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 20:12:29.546 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 21:45:33.717 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 21:45:33.794 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 21:45:35.608 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 21:45:38.756 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 21:45:38.778 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188067264ea0038
+2023-05-10 21:45:38.779 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:15:40.267+00:00
+2023-05-10 21:45:39.620 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 21:45:39.783 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 21:45:40.477 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 21:45:40.482 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:15:42.045+00:00
+2023-05-10 21:45:40.536 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 21:45:41.298 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 21:45:41.301 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:15:42.800+00:00
+2023-05-10 21:45:42.046 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 21:45:42.254 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 21:46:30.344 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 21:46:32.409 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 21:46:32.429 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188067336410039
+2023-05-10 21:46:32.430 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:16:33.859+00:00
+2023-05-10 21:46:32.815 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 21:46:32.899 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 21:46:33.216 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 21:46:33.223 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:16:34.809+00:00
+2023-05-10 21:46:33.277 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 21:46:33.944 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 21:46:33.950 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:16:35.513+00:00
+2023-05-10 21:46:34.646 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 21:50:39.731 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 21:50:42.255 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 21:50:42.272 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806770689003b
+2023-05-10 21:50:42.273 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:20:43.786+00:00
+2023-05-10 21:50:42.781 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 21:50:42.852 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 21:50:43.472 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 21:50:43.475 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:20:44.814+00:00
+2023-05-10 21:50:43.496 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 21:50:44.712 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 21:50:44.715 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:20:45.786+00:00
+2023-05-10 21:50:45.419 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 21:52:12.077 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 21:52:14.144 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 21:52:14.164 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806786ce8003c
+2023-05-10 21:52:14.165 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:22:15.529+00:00
+2023-05-10 21:52:14.610 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 21:52:14.627 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 21:52:15.711 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 21:52:15.716 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:22:16.866+00:00
+2023-05-10 21:52:15.740 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 21:52:17.083 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 21:52:17.089 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:22:18.689+00:00
+2023-05-10 21:52:18.391 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 21:53:25.588 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 21:53:27.565 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 21:53:27.587 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806798bf3003d
+2023-05-10 21:53:27.588 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:23:29.012+00:00
+2023-05-10 21:53:27.954 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 21:53:28.010 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 21:53:28.320 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 21:53:28.327 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:23:29.942+00:00
+2023-05-10 21:53:28.385 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 21:53:29.268 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 21:53:29.272 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:23:30.835+00:00
+2023-05-10 21:53:30.815 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:04:40.665 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 22:04:42.627 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:04:42.642 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880683d932003e
+2023-05-10 22:04:42.644 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:34:44.154+00:00
+2023-05-10 22:04:43.067 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:04:43.116 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 22:04:43.520 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:04:43.524 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:34:45.126+00:00
+2023-05-10 22:04:43.569 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 22:04:44.749 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:04:44.751 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:34:46.287+00:00
+2023-05-10 22:04:45.390 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:11:13.015 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2029\"","Price":"\"2000.89\"","CPU model":"\"M12CHIP\""},"name":"\"Apple Iphone 16\""}
+2023-05-10 22:11:15.455 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:11:15.469 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880689d74c0040
+2023-05-10 22:11:15.469 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:41:16.878+00:00
+2023-05-10 22:11:16.376 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:11:16.405 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 22:11:17.807 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:11:17.811 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:41:19.138+00:00
+2023-05-10 22:11:17.838 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 22:11:18.955 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:11:18.959 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:41:20.534+00:00
+2023-05-10 22:11:20.159 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:13:27.202 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:13:31.356 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:13:31.405 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188068be9280041
+2023-05-10 22:13:31.406 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:43:32.521+00:00
+2023-05-10 22:13:31.856 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:13:31.934 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"\"2028\"","color":"\"BLURE\"","Price":"\"2000.89\"","CPU model":"\"M12CHIe\""},"name":"\"Apple Iphone 17\""}
+2023-05-10 22:13:33.482 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:13:33.486 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:43:34.169+00:00
+2023-05-10 22:13:33.530 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"\"Apple Iphone 19\""}
+2023-05-10 22:13:35.993 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:13:35.996 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:43:37.551+00:00
+2023-05-10 22:13:37.786 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:16:21.211 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:16:23.390 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:16:23.415 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188068e8a3b0042
+2023-05-10 22:16:23.416 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:46:24.828+00:00
+2023-05-10 22:16:23.883 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:16:23.947 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:16:24.343 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:16:24.349 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:46:25.892+00:00
+2023-05-10 22:16:24.394 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:16:25.070 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:16:25.072 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:46:26.703+00:00
+2023-05-10 22:16:25.755 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:17:43.367 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:17:45.513 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:17:45.542 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188068fcae10043
+2023-05-10 22:17:45.543 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:47:46.913+00:00
+2023-05-10 22:17:46.010 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:17:46.074 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:17:46.518 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:17:46.525 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:47:48.107+00:00
+2023-05-10 22:17:46.577 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:17:47.217 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:17:47.223 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:47:48.842+00:00
+2023-05-10 22:17:47.730 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:18:27.947 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:18:31.523 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:18:31.552 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806907e8e0045
+2023-05-10 22:18:31.553 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:48:32.911+00:00
+2023-05-10 22:18:31.923 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:18:32.013 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:18:32.695 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:18:32.700 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:48:34.042+00:00
+2023-05-10 22:18:40.078 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:18:40.480 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:18:40.483 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:48:42.085+00:00
+2023-05-10 22:18:45.297 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:19:01.620 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:19:05.357 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:19:05.416 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880691022f0046
+2023-05-10 22:19:05.417 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:49:06.609+00:00
+2023-05-10 22:19:05.904 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:19:05.986 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:19:06.297 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:19:06.308 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:49:07.938+00:00
+2023-05-10 22:19:20.846 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:19:21.262 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:19:21.266 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:49:22.901+00:00
+2023-05-10 22:19:22.060 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:19:48.279 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:19:50.434 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:19:50.452 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880691b3670049
+2023-05-10 22:19:50.452 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:49:51.975+00:00
+2023-05-10 22:20:01.895 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:20:03.231 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:20:03.632 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:20:03.637 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:50:05.196+00:00
+2023-05-10 22:20:04.489 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:20:04.860 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:20:04.863 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:50:06.430+00:00
+2023-05-10 22:20:05.866 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:22:02.195 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:22:04.761 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:22:04.796 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880693bfa6004b
+2023-05-10 22:22:04.797 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:52:06.183+00:00
+2023-05-10 22:22:05.243 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:22:05.311 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:22:05.694 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:22:05.699 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:52:07.274+00:00
+2023-05-10 22:22:05.749 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:22:07.020 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:22:07.027 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:52:07.807+00:00
+2023-05-10 22:22:07.938 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:23:06.853 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:23:09.035 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:23:09.053 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880694bb1f004e
+2023-05-10 22:23:09.054 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:53:10.560+00:00
+2023-05-10 22:26:10.437 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:26:15.371 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:26:15.858 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:26:15.866 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:56:17.394+00:00
+2023-05-10 22:26:21.925 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:26:22.456 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:26:22.462 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:56:23.972+00:00
+2023-05-10 22:26:27.527 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:27:48.235 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:27:51.307 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:27:51.336 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069909dd0050
+2023-05-10 22:27:51.337 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:57:52.862+00:00
+2023-05-10 22:27:53.857 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:27:55.282 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:27:55.697 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:27:55.704 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:57:57.270+00:00
+2023-05-10 22:27:58.992 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:27:59.382 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:27:59.386 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:58:01.000+00:00
+2023-05-10 22:28:01.903 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:29:39.863 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:29:42.399 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:29:42.420 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069abbe10051
+2023-05-10 22:29:42.421 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T16:59:43.971+00:00
+2023-05-10 22:29:47.521 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:29:48.489 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:29:48.951 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:29:48.958 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:59:50.488+00:00
+2023-05-10 22:29:51.203 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:29:51.714 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:29:51.717 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T16:59:53.187+00:00
+2023-05-10 22:29:53.556 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:31:20.280 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:31:22.643 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:31:22.662 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069c43130052
+2023-05-10 22:31:22.663 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:01:24.116+00:00
+2023-05-10 22:31:23.158 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:31:23.237 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:31:23.668 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:31:23.673 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:01:25.275+00:00
+2023-05-10 22:31:23.722 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:31:24.157 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:31:24.161 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:01:25.733+00:00
+2023-05-10 22:31:25.429 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:32:02.272 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 22:32:02.405 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 22:32:05.483 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:32:11.095 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:32:11.141 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069d004f0054
+2023-05-10 22:32:11.142 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:02:12.560+00:00
+2023-05-10 22:32:12.285 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:32:12.373 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:32:13.584 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:32:13.585 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:02:15.206+00:00
+2023-05-10 22:32:13.633 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:32:14.740 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:32:14.742 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:02:16.385+00:00
+2023-05-10 22:32:15.363 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:32:15.562 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 22:33:56.659 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 22:33:56.853 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 22:34:00.625 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:34:08.106 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:34:08.163 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069ec8fa0055
+2023-05-10 22:34:08.165 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:04:09.467+00:00
+2023-05-10 22:34:09.353 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:34:09.456 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:34:09.869 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:34:09.871 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:04:11.522+00:00
+2023-05-10 22:34:09.945 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:34:10.324 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:34:10.325 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:04:11.975+00:00
+2023-05-10 22:34:12.358 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:34:12.630 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 22:34:50.707 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 22:34:50.854 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 22:34:54.537 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:35:00.276 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:35:00.331 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188069f94f60056
+2023-05-10 22:35:00.334 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:05:01.686+00:00
+2023-05-10 22:35:01.022 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:35:01.116 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:35:01.429 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:35:01.433 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:05:03.082+00:00
+2023-05-10 22:35:01.508 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:35:02.134 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:35:02.136 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:05:03.504+00:00
+2023-05-10 22:35:03.201 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:35:03.589 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 22:35:40.905 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 22:35:41.021 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 22:35:43.530 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 22:35:47.428 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:35:47.458 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806a04d860057
+2023-05-10 22:35:47.459 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:05:48.934+00:00
+2023-05-10 22:35:48.077 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-10 22:35:48.171 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-10 22:35:48.551 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-10 22:35:48.552 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:05:50.204+00:00
+2023-05-10 22:35:48.580 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-10 22:35:49.119 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-10 22:35:49.120 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T17:05:50.774+00:00
+2023-05-10 22:35:49.767 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-10 22:35:50.638 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-10 22:35:50.780 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 22:44:09.079 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"}}
+2023-05-10 22:45:08.942 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:45:08.954 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806a82ba90058
+2023-05-10 22:45:08.955 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:14:26.102+00:00
+2023-05-10 22:54:28.537 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{}}
+2023-05-10 22:54:30.320 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 22:54:30.334 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806b17033005a
+2023-05-10 22:54:30.334 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:24:31.924+00:00
+2023-05-10 23:01:31.339 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{}}
+2023-05-10 23:01:33.143 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:01:33.159 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806b7e3ca0061
+2023-05-10 23:01:33.159 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:31:34.731+00:00
+2023-05-10 23:04:04.183 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 23:04:04.293 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 23:04:06.954 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 23:04:12.031 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:04:12.054 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806ba50250062
+2023-05-10 23:04:12.055 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:34:13.541+00:00
+2023-05-10 23:04:13.675 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"}}
+2023-05-10 23:04:14.603 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:04:14.607 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806ba59b90063
+2023-05-10 23:04:14.608 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:34:15.994+00:00
+2023-05-10 23:04:14.635 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {}
+2023-05-10 23:04:15.525 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:04:15.526 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806ba5d620064
+2023-05-10 23:04:15.527 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:34:16.930+00:00
+2023-05-10 23:04:15.665 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-10 23:06:16.562 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\akila.samaranayake\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2023-05-10 23:06:16.671 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-qa-api-automation
+2023-05-10 23:06:19.111 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-10 23:06:23.728 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:06:23.752 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806bc52b50065
+2023-05-10 23:06:23.752 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:36:25.269+00:00
+2023-05-10 23:06:25.450 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"}}
+2023-05-10 23:06:28.314 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:06:28.317 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806bc621c0066
+2023-05-10 23:06:28.318 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:36:29.212+00:00
+2023-05-10 23:06:28.379 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {}
+2023-05-10 23:06:36.470 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-10 23:06:36.471 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018806bc84ff0067
+2023-05-10 23:06:36.471 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T17:36:38.143+00:00
+2023-05-10 23:06:36.611 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-qa-api-automation
+2023-05-11 00:56:13.829 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 00:56:14.436 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 00:56:14.837 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:08:25.794 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:08:26.162 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:08:26.515 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:13:53.992 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:14:17.223 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:14:17.514 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:14:17.853 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:17:44.325 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:17:56.378 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:18:27.279 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:18:30.109 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:19:32.005 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"EMPTY"}
+2023-05-11 01:19:53.779 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:19:56.380 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:19:59.212 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:19:59.543 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:22:21.979 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {}
+2023-05-11 01:22:23.674 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:22:23.688 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880738d6070083
+2023-05-11 01:22:23.689 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T19:52:25.351+00:00
+2023-05-11 01:34:44.175 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{}}
+2023-05-11 01:34:46.985 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:40:48.042 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:41:42.110 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:42:22.090 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:43:59.407 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:44:36.708 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:45:12.908 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:45:15.237 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:45:15.285 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:45:15.614 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:45:15.626 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 01:45:15.924 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:47:53.531 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-11 01:47:57.368 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 01:48:04.893 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:48:04.917 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff80818188056732018807505a2b008f
+2023-05-11 01:48:04.918 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:18:06.507+00:00
+2023-05-11 01:48:06.474 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:48:06.796 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:48:06.921 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:48:07.228 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:48:07.275 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 01:48:07.542 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:48:07.832 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:48:08.314 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-11 01:53:49.959 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-11 01:53:52.518 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 01:53:56.480 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:53:56.512 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880755b78e0094
+2023-05-11 01:53:56.513 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:23:58.095+00:00
+2023-05-11 01:53:58.170 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:53:58.492 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:53:58.567 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:53:58.889 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:53:58.962 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 01:53:59.262 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:53:59.550 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:54:00.273 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:54:00.679 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 01:54:00.967 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:54:02.101 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 01:54:02.351 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:54:02.352 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880755cf060098
+2023-05-11 01:54:02.352 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:24:04.103+00:00
+2023-05-11 01:54:02.669 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:54:02.715 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 01:54:03.006 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-11 01:54:03.011 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:24:04.744+00:00
+2023-05-11 01:54:03.048 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 01:54:03.315 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-11 01:54:03.316 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:24:05.068+00:00
+2023-05-11 01:54:03.589 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-11 01:54:03.836 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 01:54:03.999 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-11 01:57:22.819 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-11 01:57:25.916 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 01:57:30.482 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:57:30.535 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880758fb37009b
+2023-05-11 01:57:30.536 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:27:32.025+00:00
+2023-05-11 01:57:32.947 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 01:57:33.248 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:57:33.365 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 01:57:33.660 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:57:33.693 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 01:57:33.958 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:57:34.238 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 01:57:34.837 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:57:35.224 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 01:57:35.512 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:57:36.655 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 01:57:36.905 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 01:57:36.907 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880759151f009f
+2023-05-11 01:57:36.909 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:27:38.656+00:00
+2023-05-11 01:57:37.201 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 01:57:37.228 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 01:57:37.497 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-11 01:57:37.500 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:27:39.243+00:00
+2023-05-11 01:57:37.536 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 01:57:37.824 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-11 01:57:37.830 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:27:39.569+00:00
+2023-05-11 01:57:38.185 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-11 01:57:38.413 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 01:57:38.552 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-11 02:04:47.738 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-11 02:04:50.616 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:04:54.962 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:04:54.994 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188075fc3b000a1
+2023-05-11 02:04:54.995 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:34:56.561+00:00
+2023-05-11 02:04:57.898 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 02:04:58.269 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:04:58.472 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 02:04:58.783 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:04:58.828 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 02:04:59.160 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:04:59.501 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 02:05:00.145 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 02:05:00.804 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 02:05:01.112 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 02:05:02.361 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:05:02.595 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:05:02.596 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff808181880567320188075fe22300a5
+2023-05-11 02:05:02.596 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:35:04.355+00:00
+2023-05-11 02:05:02.883 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 02:05:02.922 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 02:05:03.211 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :200
+2023-05-11 02:05:03.212 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:35:04.972+00:00
+2023-05-11 02:05:03.254 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 02:05:03.570 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :200
+2023-05-11 02:05:03.571 [main] INFO  com.amused.testSteps.testStepDef - updatedAt updatedAt >> 2023-05-10T20:35:05.327+00:00
+2023-05-11 02:05:03.879 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :200
+2023-05-11 02:05:04.139 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :404
+2023-05-11 02:05:04.428 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-11 02:12:11.022 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-test1
+2023-05-11 02:12:13.429 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:12:17.409 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:12:17.441 [main] INFO  com.amused.testSteps.testStepDef - Created objectID >> ff8081818805673201880766840600a8
+2023-05-11 02:12:17.442 [main] INFO  com.amused.testSteps.testStepDef - Created createdAt >> 2023-05-10T20:42:19.014+00:00
+2023-05-11 02:12:19.131 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 02:12:19.498 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:12:19.629 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 02:12:19.907 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:12:19.934 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 02:12:20.239 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :200
+2023-05-11 02:12:20.538 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 02:12:21.158 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:12:21.431 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:12:21.788 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 02:12:22.899 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:12:23.198 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:12:23.506 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:12:23.545 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 02:12:23.782 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :405
+2023-05-11 02:12:23.812 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 02:12:24.091 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :405
+2023-05-11 02:12:24.349 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :405
+2023-05-11 02:12:24.517 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-test1
+2023-05-11 02:16:04.394 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> Started-Surefire test
+2023-05-11 02:16:07.033 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:16:10.452 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:16:10.701 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":12345}
+2023-05-11 02:16:11.028 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:16:11.102 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"!@#$&*()_+-;:"}
+2023-05-11 02:16:11.355 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:16:11.400 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":2021,"price":2004.89,"CPU model":"Intel Core i9"},"name":"null"}
+2023-05-11 02:16:11.684 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:16:11.935 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :400
+2023-05-11 02:16:12.582 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:16:12.838 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:16:13.106 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :200
+2023-05-11 02:16:14.101 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:16:14.328 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:16:14.605 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:16:14.631 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 02:16:14.886 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :405
+2023-05-11 02:16:14.908 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 02:16:15.326 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :405
+2023-05-11 02:16:15.581 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :405
+2023-05-11 02:16:15.737 [main] INFO  com.amused.runner.TestRunner - >>>>>>>>> End-Surefire test
+2023-05-11 02:17:29.706 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2029","Price":"2000.89","CPU model":"M12CHIP"},"name":"Apple Iphone 16"}
+2023-05-11 02:17:32.256 [main] INFO  com.amused.utils.RestUtils - API service is :addObject and response code is :405
+2023-05-11 02:17:32.554 [main] INFO  com.amused.utils.RestUtils - API service is :getObjectForGivenId and response code is :405
+2023-05-11 02:17:32.601 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"data":{"Year":"2028","color":"BLUE","Price":"2000.89","CPU model":"M12CHIe"},"name":"Apple Iphone 17"}
+2023-05-11 02:17:32.874 [main] INFO  com.amused.utils.RestUtils - API service is :updateObject and response code is :405
+2023-05-11 02:17:32.900 [main] INFO  com.amused.testSteps.testStepDef - Prepared Json Object >> {"name":"Apple Iphone 19"}
+2023-05-11 02:17:33.147 [main] INFO  com.amused.utils.RestUtils - API service is :updatePartiallyObject and response code is :405
+2023-05-11 02:17:33.377 [main] INFO  com.amused.utils.RestUtils - API service is :deleteObject and response code is :405

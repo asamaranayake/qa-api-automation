@@ -1,0 +1,1 @@
+{"uuid":"453f1da1-aa0d-4a5e-a1b3-457663e743be","name":"Scenario: Verify GET request to the API endpoint instead of POST","children":["2b38451b-3457-4e5a-bc17-54d719103f0c"],"befores":[],"afters":[],"links":[],"start":1683751571965,"stop":1683751572291}

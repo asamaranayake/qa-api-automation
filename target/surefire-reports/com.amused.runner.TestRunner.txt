@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.amused.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 15.094 s <<< FAILURE! - in com.amused.runner.TestRunner
+com.amused.runner.TestRunner.runScenario["Verify the Positive Scenarios", "Optional[ADD Single Object POST API]"](1)  Time elapsed: 4.624 s  <<< FAILURE!
+java.lang.AssertionError: userInvokeTheAddObjectAPI Step is failed due to exception of java.lang.NullPointerException
+
+com.amused.runner.TestRunner.runScenario["Verifying the "invalid_DATA_TYPE_FOR_NAME_Field" Negative Scenarios", "Optional[ADD Single Object POST API]"](2)  Time elapsed: 0.426 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verifying the "Special_Characters_FOR_NAME_Field" Negative Scenarios", "Optional[ADD Single Object POST API]"](3)  Time elapsed: 0.304 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verifying the "NULL_FOR_NAME_Field" Negative Scenarios", "Optional[ADD Single Object POST API]"](4)  Time elapsed: 0.295 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verify the Positive Scenarios", "Optional[Retrieve Single Object GET API]"](7)  Time elapsed: 0.313 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verify the Negative Scenarios", "Optional[Retrieve Single Object GET API]"](8)  Time elapsed: 0.242 s  <<< FAILURE!
+java.lang.AssertionError: expected [404] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verify the Negative Scenarios", "Optional[Retrieve Single Object GET API]"](9)  Time elapsed: 0.259 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+
+com.amused.runner.TestRunner.runScenario["Verify that the response is not vulnerable to common web application attacks", "Optional[Retrieve Single Object GET API]"](10)  Time elapsed: 0.398 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <405>.
+
+
+com.amused.runner.TestRunner.runScenario["Verify that the response is not vulnerable to common web application attacks", "Optional[Retrieve Single Object GET API]"](11)  Time elapsed: 0.285 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <405>.
+
+
+com.amused.runner.TestRunner.runScenario["Verify that the response is not vulnerable to common web application attacks", "Optional[Retrieve Single Object GET API]"](12)  Time elapsed: 0.29 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <405>.
+
+
+com.amused.runner.TestRunner.runScenario["Verifying User ADD Object", "Optional[End to End API Workflow (Add, Get , Update , Patch and Delete)]"](13)  Time elapsed: 0.254 s  <<< FAILURE!
+java.lang.AssertionError: userInvokeTheAddObjectAPI Step is failed due to exception of java.lang.NullPointerException
+
+com.amused.runner.TestRunner.runScenario["Verifying Added Object is returned in Get Object API", "Optional[End to End API Workflow (Add, Get , Update , Patch and Delete)]"](14)  Time elapsed: 0.268 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+
+com.amused.runner.TestRunner.runScenario["Verifying the User Update the Already created Object", "Optional[End to End API Workflow (Add, Get , Update , Patch and Delete)]"](15)  Time elapsed: 0.339 s  <<< FAILURE!
+java.lang.AssertionError: setNameToObject Step is failed due to exception of java.lang.NullPointerException
+
+com.amused.runner.TestRunner.runScenario["Verifying the User partially Update the already created Object", "Optional[End to End API Workflow (Add, Get , Update , Patch and Delete)]"](16)  Time elapsed: 0.388 s  <<< FAILURE!
+java.lang.AssertionError: setNameToObject Step is failed due to exception of java.lang.NullPointerException
+
+com.amused.runner.TestRunner.runScenario["Verifying the User DELETE the already created Object", "Optional[End to End API Workflow (Add, Get , Update , Patch and Delete)]"](17)  Time elapsed: 0.273 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [405]
+

@@ -1,0 +1,2493 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-10T20:46:06.678Z",
+        "line": 5,
+        "name": "Verify the Positive Scenarios",
+        "description": "",
+        "id": "add-single-object-post-api;verify-the-positive-scenarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User set \"name\" as the Apple Iphone 16 to Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "Apple Iphone 16",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User set \"Year\" as the 2029 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2029",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2003100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User set \"CPU model\" as the M12CHIP to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "M12CHIP",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set \"Price\" as the 2000.89 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2000.89",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: userInvokeTheAddObjectAPI Step is failed due to exception of java.lang.NullPointerException\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat com.amused.testSteps.testStepDef.userInvokeTheAddObjectAPI(testStepDef.java:79)\r\n\tat ✽.user add the Object using api Request(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/AddObjectAPI.feature:10)\r\n",
+              "duration": 3512250600,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user add the Object using api Request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheAddObjectAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "validate if response header availability",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.validateIfResponseHavingHeader()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "validate \"ABOVE\" object ID is not Changed after the Update Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateObjectIDIsNotChangedAfterTheUpdateObject(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the Response with \"name\" as \"Apple Iphone 16\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Apple Iphone 16\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "verify the Response with \"Year\" as \"2029\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2029\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify the Response with \"Price\" as \"2000.89\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "verify the Response with \"CPU model\" as \"M12CHIP\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"M12CHIP\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verify the Response Object with \"name\" as \"Apple Iphone 16\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Apple Iphone 16\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Verify the Response Object with \"id\" as \"ABOVE\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify the Response Data Object with \"Year\" as \"2029\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"2029\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAs(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Verify the Response Data Object with \"Price\" as \"2000.89\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAs(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:10.685Z",
+        "line": 32,
+        "name": "Verifying the \"invalid_DATA_TYPE_FOR_NAME_Field\" Negative Scenarios",
+        "description": "",
+        "id": "add-single-object-post-api;verifying-the-\"\u003cscenario\u003e\"-negative-scenarios;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User set \"name\" as the \"12345\" to Object with \"integer\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"integer\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User set \"Year\" as the \"2021\" to Data Object with \"integer\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"integer\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User set \"price\" as the \"2004.89\" to Data Object with \"float\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2004.89\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"float\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User set \"CPU model\" as the \"Intel Core i9\" to Data Object with \"string\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Intel Core i9\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329813600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user SEND ADD OBJECT POST request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeThePOSTAddObjectAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [400] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 400(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/AddObjectAPI.feature:29)\r\n",
+              "duration": 15007600,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "validate the status code is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:11.082Z",
+        "line": 33,
+        "name": "Verifying the \"Special_Characters_FOR_NAME_Field\" Negative Scenarios",
+        "description": "",
+        "id": "add-single-object-post-api;verifying-the-\"\u003cscenario\u003e\"-negative-scenarios;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User set \"name\" as the \"!@#$\u0026*()_+-;:\" to Object with \"string\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"!@#$\u0026*()_+-;:\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User set \"Year\" as the \"2021\" to Data Object with \"integer\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"integer\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4002000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User set \"price\" as the \"2004.89\" to Data Object with \"float\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2004.89\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"float\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User set \"CPU model\" as the \"Intel Core i9\" to Data Object with \"string\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Intel Core i9\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255446200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user SEND ADD OBJECT POST request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeThePOSTAddObjectAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [400] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 400(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/AddObjectAPI.feature:29)\r\n",
+              "duration": 997800,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "validate the status code is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:11.393Z",
+        "line": 34,
+        "name": "Verifying the \"NULL_FOR_NAME_Field\" Negative Scenarios",
+        "description": "",
+        "id": "add-single-object-post-api;verifying-the-\"\u003cscenario\u003e\"-negative-scenarios;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User set \"name\" as the \"null\" to Object with \"string\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User set \"Year\" as the \"2021\" to Data Object with \"integer\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"integer\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User set \"price\" as the \"2004.89\" to Data Object with \"float\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2004.89\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"float\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User set \"CPU model\" as the \"Intel Core i9\" to Data Object with \"string\" Data type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Intel Core i9\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"string\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userSetAsTheToDataObjectWithDataType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284207600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user SEND ADD OBJECT POST request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeThePOSTAddObjectAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [400] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 400(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/AddObjectAPI.feature:29)\r\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "validate the status code is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:11.703Z",
+        "line": 36,
+        "name": "Verify that the Getting 400 error When sending POST request with no Body json.",
+        "description": "",
+        "id": "add-single-object-post-api;verify-that-the-getting-400-error-when-sending-post-request-with-no-body-json.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Set JSON Body as EMPTY",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.setJSONBodyAsEmpty()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229223100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user SEND ADD OBJECT POST request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeThePOSTAddObjectAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "validate the status code is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Validate the Error Response with \"400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all.\" error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all.\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheErrorResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:11.963Z",
+        "line": 42,
+        "name": "Verify GET request to the API endpoint instead of POST",
+        "description": "",
+        "id": "add-single-object-post-api;verify-get-request-to-the-api-endpoint-instead-of-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User set \"name\" as the Apple Iphone 14 to Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "Apple Iphone 14",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User set \"Year\" as the 2029 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2029",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User set \"CPU model\" as the M12CHIP to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "M12CHIP",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User set \"Price\" as the 2000 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2000",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320670000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Send a GET request to API endpoint instead of POST",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.sendAGETRequestToAPIEndpointInsteadOfPOST()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "validate the status code is 405",
+            "match": {
+              "arguments": [
+                {
+                  "val": "405",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ADDObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "ADD Single Object POST API",
+    "description": "",
+    "id": "add-single-object-post-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddObjectAPI.feature",
+    "tags": [
+      {
+        "name": "@ADDObjectAPI",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-10T20:46:12.309Z",
+        "line": 5,
+        "name": "Verify the Positive Scenarios",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-the-positive-scenarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 269885700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user get Response for \"7\" Object Id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheGET_OBJECTAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 200(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:7)\r\n",
+              "duration": 999600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "validate if response header availability",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.validateIfResponseHavingHeader()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Verify the Response Object with \"name\" as \"Apple MacBook Pro 16\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Apple MacBook Pro 16\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 68
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify the Response Object with \"id\" as \"7\" in \"String\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"7\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"String\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verify the Response Data Object with \"year\" as \"2019\" in \"Integer\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"year\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"2019\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Integer\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAs(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Verify the Response Data Object with \"price\" as \"1849.99\" in \"Float\" data format",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"price\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1849.99\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Float\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAs(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "verify the Response with \"CPU model\" as \"Intel Core i9\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Intel Core i9\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the Response with \"Hard disk size\" as \"1 TB\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hard disk size\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"1 TB\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:12.609Z",
+        "line": 22,
+        "name": "Verify the Negative Scenarios",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-the-negative-scenarios;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 227599900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user get Response for \"INVALID_OBJECT_ID\" Object Id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"INVALID_OBJECT_ID\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheGET_OBJECTAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [404] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 404(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:18)\r\n",
+              "duration": 999500,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "validate the status code is 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Validate the Error Response with \"Oject with id\u003dnull was not found.\" error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oject with id\u003dnull was not found.\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheErrorResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:12.855Z",
+        "line": 23,
+        "name": "Verify the Negative Scenarios",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-the-negative-scenarios;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 251596100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user get Response for \"EMPTY\" Object Id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EMPTY\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheGET_OBJECTAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [400] but found [200]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 400(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "validate the status code is 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Validate the Error Response with \"Bad Request\" error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad Request\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheErrorResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:13.132Z",
+        "line": 30,
+        "name": "Verify that the response is not vulnerable to common web application attacks",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-that-the-response-is-not-vulnerable-to-common-web-application-attacks;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c400\u003e but was \u003c405\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(testStepDef.java:313)\r\n\tat ✽.Check the \"SQL_INJECTION\" for get Object API(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:27)\r\n",
+              "duration": 370498800,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Check the \"SQL_INJECTION\" for get Object API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SQL_INJECTION\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:13.525Z",
+        "line": 31,
+        "name": "Verify that the response is not vulnerable to common web application attacks",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-that-the-response-is-not-vulnerable-to-common-web-application-attacks;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c400\u003e but was \u003c405\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(testStepDef.java:321)\r\n\tat ✽.Check the \"XSS\" for get Object API(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:27)\r\n",
+              "duration": 245057300,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Check the \"XSS\" for get Object API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"XSS\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:13.798Z",
+        "line": 32,
+        "name": "Verify that the response is not vulnerable to common web application attacks",
+        "description": "",
+        "id": "retrieve-single-object-get-api;verify-that-the-response-is-not-vulnerable-to-common-web-application-attacks;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c403\u003e but was \u003c405\u003e.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\r\n\tat com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(testStepDef.java:330)\r\n\tat ✽.Check the \"CSRF\" for get Object API(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/GetObjectAPI.feature:27)\r\n",
+              "duration": 267553300,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Check the \"CSRF\" for get Object API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CSRF\"",
+                  "offset": 10
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.checkTheSQLInjectionForGetObjectAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getObjectAPI"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve Single Object GET API",
+    "description": "",
+    "id": "retrieve-single-object-get-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GetObjectAPI.feature",
+    "tags": [
+      {
+        "name": "@getObjectAPI",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-10T20:46:14.096Z",
+        "line": 5,
+        "name": "Verifying User ADD Object",
+        "description": "",
+        "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete);verifying-user-add-object",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User set \"name\" as the Apple Iphone 16 to Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "Apple Iphone 16",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User set \"Year\" as the 2029 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2029",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User set \"CPU model\" as the M12CHIP to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "M12CHIP",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User set \"Price\" as the 2000.89 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2000.89",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: userInvokeTheAddObjectAPI Step is failed due to exception of java.lang.NullPointerException\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat com.amused.testSteps.testStepDef.userInvokeTheAddObjectAPI(testStepDef.java:79)\r\n\tat ✽.user add the Object using api Request(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/e2eworkflow.feature:10)\r\n",
+              "duration": 228159600,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user add the Object using api Request",
+            "match": {
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheAddObjectAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify the Response with \"name\" as \"Apple Iphone 16\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Apple Iphone 16\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "verify the Response with \"Year\" as \"2029\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2029\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "verify the Response with \"Price\" as \"2000.89\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "verify the Response with \"CPU model\" as \"M12CHIP\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"M12CHIP\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:14.353Z",
+        "line": 17,
+        "name": "Verifying Added Object is returned in Get Object API",
+        "description": "",
+        "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete);verifying-added-object-is-returned-in-get-object-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 251376900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user get Response for \"ABOVE\" Object Id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheGET_OBJECTAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 200(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/e2eworkflow.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify the Response with \"name\" as \"Apple Iphone 16\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Apple Iphone 16\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "verify the Response with \"Year\" as \"2029\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2029\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "verify the Response with \"Price\" as \"2000.89\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "verify the Response with \"CPU model\" as \"M12CHIP\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"M12CHIP\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:14.627Z",
+        "line": 25,
+        "name": "Verifying the User Update the Already created Object",
+        "description": "",
+        "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete);verifying-the-user-update-the-already-created-object",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User set \"name\" as the Apple Iphone 17 to Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "Apple Iphone 17",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User set \"Year\" as the 2028 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2028",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User set \"CPU model\" as the M12CHIe to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 9
+                },
+                {
+                  "val": "M12CHIe",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User set \"Price\" as the 2000.89 to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 9
+                },
+                {
+                  "val": "2000.89",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 506500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User set \"color\" as the BLUE to Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"color\"",
+                  "offset": 9
+                },
+                {
+                  "val": "BLUE",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: setNameToObject Step is failed due to exception of java.lang.NullPointerException\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat com.amused.testSteps.testStepDef.userInvokeTheUpdateObjectAPI(testStepDef.java:144)\r\n\tat ✽.user update the \"ABOVE\" Object using api Request(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/e2eworkflow.feature:31)\r\n",
+              "duration": 255869800,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "user update the \"ABOVE\" Object using api Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheUpdateObjectAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "validate \"ABOVE\" object ID is not Changed after the Update Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateObjectIDIsNotChangedAfterTheUpdateObject(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "verify the Response with \"name\" as \"Apple Iphone 17\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Apple Iphone 17\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "verify the Response with \"Year\" as \"2028\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2028\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "verify the Response with \"Price\" as \"2000.89\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "verify the Response with \"CPU model\" as \"M12CHIe\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"M12CHIe\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "verify the Response with \"color\" as \"BLUE\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"color\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"BLUE\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:14.903Z",
+        "line": 40,
+        "name": "Verifying the User partially Update the already created Object",
+        "description": "",
+        "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete);verifying-the-user-partially-update-the-already-created-object",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User set \"name\" as the Apple Iphone 19 to Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 9
+                },
+                {
+                  "val": "Apple Iphone 19",
+                  "offset": 23
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userAddAsTheToObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: setNameToObject Step is failed due to exception of java.lang.NullPointerException\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat com.amused.testSteps.testStepDef.userInvokeTheUpdatePartiallyAPI(testStepDef.java:176)\r\n\tat ✽.user partially update the \"ABOVE\" Object using api Request(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/e2eworkflow.feature:42)\r\n",
+              "duration": 419961000,
+              "status": "failed"
+            },
+            "line": 42,
+            "name": "user partially update the \"ABOVE\" Object using api Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheUpdatePartiallyAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "validate \"ABOVE\" object ID is not Changed after the Update Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateObjectIDIsNotChangedAfterTheUpdateObject(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "verify the Response with \"name\" as \"Apple Iphone 19\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Apple Iphone 19\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "verify the Response with \"Year\" as \"2028\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Year\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2028\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "verify the Response with \"Price\" as \"2000.89\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"2000.89\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "verify the Response with \"CPU model\" as \"M12CHIe\" in Data Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CPU model\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"M12CHIe\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInDataObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-10T20:46:15.343Z",
+        "line": 49,
+        "name": "Verifying the User DELETE the already created Object",
+        "description": "",
+        "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete);verifying-the-user-delete-the-already-created-object",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 238429300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user delete the \"ABOVE\" Object using api Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userDeleteTheObjectUsingApiRequest(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [405]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1418)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1382)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1428)\r\n\tat com.amused.testSteps.testStepDef.validateTheStatusCodeIs(testStepDef.java:184)\r\n\tat ✽.validate the status code is 200(file:///C:/Personal.work/qa-api-automation/src/test/resources/features/e2eworkflow.feature:51)\r\n",
+              "duration": 997600,
+              "status": "failed"
+            },
+            "line": 51,
+            "name": "validate the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 972000,
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "verify the Response with \"message\" as \"Object with id \u003d \u003cOBJECT_ID\u003e has been deleted.\" in Object",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Object with id \u003d \u003cOBJECT_ID\u003e has been deleted.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.verifyTheResponseWithAsInObject(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "user get Response for \"ABOVE\" Object Id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABOVE\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.userInvokeTheGET_OBJECTAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 948100,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "validate the status code is 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "com.amused.testSteps.testStepDef.validateTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e"
+          },
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "End to End API Workflow (Add, Get , Update , Patch and Delete)",
+    "description": "",
+    "id": "end-to-end-api-workflow-(add--get---update---patch-and-delete)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/e2eworkflow.feature",
+    "tags": [
+      {
+        "name": "@e2e",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    ]
+  }
+]
